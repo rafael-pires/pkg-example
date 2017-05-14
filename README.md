@@ -1,0 +1,2 @@
+### Example of package definitions required to be built by package-builder
+The contents of this repo contain an example so an rpm package can be built with package-builder containing dependencies, files, scripts and gpg key. It also contains valid parameters to be pushed to katello product repo.

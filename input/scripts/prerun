@@ -1,0 +1,9 @@
+#!/bin/bash
+# prerun
+ln -s /opt/openbet/current/site_management/bin/openbet_restart.sh /etc/init.d/openbet
+ln -s /etc/alternatives/ot_appserv /usr/sbin/ot_appserv
+ln -s /usr/sbin/ot_appserv.lic /etc/alternatives/ot_appserv
+ln -s /usr/sbin/ot_appserv /opt/openbet/bin/appserv
+ln -s /logs/openbet /opt/openbet/logs
+ln -s /opt/openbet/current/site_management/tools/whats_running /opt/openbet/bin/whats_running
+ln -s /opt/openbet/current/site_management/tools/whats_spinning /opt/openbet/bin/whats_spinning

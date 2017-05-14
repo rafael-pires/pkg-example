@@ -1,0 +1,55 @@
+{
+  "rpm": {
+    "namesuffix": ".el6.",
+    "fpm": {
+      "after-install": "postrun",
+      "config-files": [
+        "test",
+        "/opt/openbet/.bash_profile"
+      ],
+      "depends": [
+        "tcllib = 1.11.1-3.el6.openbet1",
+        "tdom = 0.8.2-6.el6.openbet4",
+        "tbcload >= 1.7",
+        "tcl-tclxml = 3.2-5.el6.openbet2",
+        "tcltls = 1.6-4.el6.openbet10",
+        "tnc = 0.3.0-4.el6.openbet",
+        "ot-appserv = 2.36.26-1.el6.openbet",
+        "ot-appserv-addons-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-crypto-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-dstruct-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-fips-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-infcdc-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-infsql-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-inftcl-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-mysqltcl-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-pgtcl-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-ssclient-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-tcl-lib = 2.36.26-1.el6.openbet",
+        "ot-appserv-template-lib = 2.36.26-1.el6.openbet",
+        "ot-liveserv = 2.0.13-1.el6.openbet",
+        "yajl-tcl = 1.3-1.el6.openbet",
+        "libev = 4.03-3.el6"
+      ],
+      "description": "OpenBet",
+      "iteration": "4",
+      // "iteration": "2.",
+      "license": "license",
+      "maintainer": "XXX",
+      "rpm-group": "openbet",
+      "rpm_output_dir": "output/",
+      "rpm-sign": "",
+      "rpm-summary": "'hello world! I work'",
+      "rpm-user": "openbet",
+      "url": "default",
+      "vendor": "XXX",
+      "version": "2.1"
+    },
+    "gpg-passphrase": "xxxx",
+    "SATTELITE_CHANNELLABEL": "openbet-rhel6",
+    "SATELLITE_LOGIN": "svc_jenkins",
+    "SATELLITE_PASSWORD": "xxxxx",
+    "SATELLITE_SERVER": "gimppsat001.xxx.net",
+    "SATELLITE_URL": "http://gimppsat001.xxx.net/rpc/api"
+  }
+}
